@@ -1,13 +1,13 @@
 # Install Brain for Mac beta
 
-This release includes Brain for Mac 0.5.15 (34) and the Brain Google Meet Chrome companion 0.1.7.
+This release includes Brain for Mac 0.5.19 (38) and the Brain Google Meet Chrome companion 0.1.7.
 
 Requires an Apple silicon Mac with macOS 15 or later and Google Chrome.
 
 ## Install the Mac app
 
 1. Quit your running copy of Brain.
-2. Download [Brain-0.5.15-34.zip](https://github.com/deemidroll/BrainApp-Releases/releases/download/mac-0.5.15-34/Brain-0.5.15-34.zip) and unzip it.
+2. Download [Brain-0.5.19-38.zip](https://github.com/deemidroll/BrainApp-Releases/releases/download/mac-0.5.19-38/Brain-0.5.19-38.zip) and unzip it.
 3. Move `Brain.app` to Applications and open it. This app is Developer ID signed, notarized and stapled.
 
 ## Install the Chrome companion
@@ -34,12 +34,14 @@ Join a Google Meet call and check the visible recording indicator. Refresh and r
 
 ## Update
 
+If you already use TestFlight, update Pinky Brain there. Use one distribution channel and run one copy of Brain at a time.
+
 Quit Brain before replacing the app with a newer release. Run one copy of Brain at a time.
 
 Chrome manages updates for the companion installed from the Chrome Web Store. For a manually installed companion, unpack its update into the same extension folder and click **Reload** in `chrome://extensions`.
 
 ## Verify downloads
 
-Compare the output of `shasum -a 256 Brain-0.5.15-34.zip` with its matching entry in [SHA256SUMS](https://github.com/deemidroll/BrainApp-Releases/releases/download/mac-0.5.15-34/SHA256SUMS).
+Compare the output of `shasum -a 256 Brain-0.5.19-38.zip` with its matching entry in [SHA256SUMS](https://github.com/deemidroll/BrainApp-Releases/releases/download/mac-0.5.19-38/SHA256SUMS).
 
 [Brain website](https://brain.dmdrll.com/) · [Privacy and support](https://brain.dmdrll.com/privacy)
