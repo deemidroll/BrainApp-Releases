@@ -1,47 +1,32 @@
-# Install Brain for Mac beta
+# Brain for Mac 0.5.20 (39)
 
-This release includes Brain for Mac 0.5.19 (38) and the Brain Google Meet Chrome companion 0.1.7.
+Requires an Apple silicon Mac with macOS 15 or later. Automatic Chrome connection requires Brain Meet companion 0.1.8.
 
-Requires an Apple silicon Mac with macOS 15 or later and Google Chrome.
+## Install Brain
 
-## Install the Mac app
+1. Quit the running Brain app.
+2. Download Brain-0.5.20-39.zip, unzip it and move Brain.app to Applications.
+3. Open Brain. The app is Developer ID signed, notarized and stapled.
+4. Choose a transcripts folder or use the local default in first-run setup.
 
-1. Quit your running copy of Brain.
-2. Download [Brain-0.5.19-38.zip](https://github.com/deemidroll/BrainApp-Releases/releases/download/mac-0.5.19-38/Brain-0.5.19-38.zip) and unzip it.
-3. Move `Brain.app` to Applications and open it. This app is Developer ID signed, notarized and stapled.
+## Google Meet recording
 
-## Install the Chrome companion
+Install Brain — Google Meet context 0.1.8 from the Chrome Web Store. The companion connects automatically after Brain setup. Enable Automatically record Google Meet in Brain Settings and grant the macOS microphone and system-audio access you choose to use.
 
-1. Open [Brain — Google Meet context in the Chrome Web Store](https://chromewebstore.google.com/detail/brain-%E2%80%94-google-meet-conte/ahgkfkegjhimigcjlcnpfobjdcigacap) in the Chrome profile you use for Google Meet.
-2. Click **Add to Chrome** and confirm **Add extension**.
-3. Open the Chrome Extensions menu and choose **Brain — Google Meet context**.
+A confirmed Meet join starts visible recording. Leaving stops it. The B control becomes a dot during capture. You can also start or stop a recording manually.
 
-If you previously installed the companion with **Load unpacked**, remove that copy in `chrome://extensions` before installing the Store version, then connect it to Brain again using the steps below.
+If the Store offers companion 0.1.7, automatic setup will be available after its 0.1.8 update. Existing paired 0.1.7 connections can continue using saved credentials.
 
-## Connect Chrome to Brain
+[Chrome Web Store](https://chromewebstore.google.com/detail/ahgkfkegjhimigcjlcnpfobjdcigacap)
 
-1. Open Brain Settings and choose **Connect Chrome Extension**.
-2. Copy the temporary code.
-3. Open the Brain extension in Chrome, choose **Connect to Brain** and paste the code.
-4. Allow the requested connection to `127.0.0.1` on your Mac.
-5. Confirm **Connected** in both Brain and the extension.
+## Offline transcription
 
-## Enable meeting recording
+Whisper runs entirely offline on your Mac. Brain never uploads your audio or transcripts to a server or external AI service. If you choose iCloud Drive or another synchronized folder for notes, that provider can sync the saved Markdown files according to your configuration.
 
-Enable **Automatically record Google Meet** in Brain Settings when you are ready. Grant the microphone and screen/system-audio recording access requested by Brain.
-
-Join a Google Meet call and check the visible recording indicator. Refresh and rejoin to test continuity, then leave the call and review the locally processed meeting.
+Save, Copy MD and Copy text use the note in your transcripts folder. Reveal in Finder selects that file. Delete retains a recovery copy with the local recording package.
 
 ## Update
 
-If you already use TestFlight, update Pinky Brain there. Use one distribution channel and run one copy of Brain at a time.
-
-Quit Brain before replacing the app with a newer release. Run one copy of Brain at a time.
-
-Chrome manages updates for the companion installed from the Chrome Web Store. For a manually installed companion, unpack its update into the same extension folder and click **Reload** in `chrome://extensions`.
-
-## Verify downloads
-
-Compare the output of `shasum -a 256 Brain-0.5.19-38.zip` with its matching entry in [SHA256SUMS](https://github.com/deemidroll/BrainApp-Releases/releases/download/mac-0.5.19-38/SHA256SUMS).
+Chrome updates the companion through the Chrome Web Store. TestFlight users can update Pinky Brain to 0.5.20 (39). Run one copy of Brain at a time.
 
 [Brain website](https://brain.dmdrll.com/) · [Privacy and support](https://brain.dmdrll.com/privacy)
