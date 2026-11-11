@@ -25,6 +25,6 @@ Save, Copy MD and Copy text use the note in your transcripts folder. Reveal in F
 
 ## Update
 
-Chrome updates the companion through the Chrome Web Store. Open Brain: Meetings Transcription in TestFlight to see builds available to your existing tester group. Run one copy of Brain at a time.
+Chrome updates the companion through the Chrome Web Store. Open Brain: Meetings Transcription in TestFlight and update to Mac 0.5.22 (41) in the existing Personal Devices tester group. The public App Store submission is awaiting Apple review. Chrome 0.1.9 with the new icon is awaiting Google review. Run one copy of Brain at a time.
 
 [Brain website](https://brain.dmdrll.com/) · [Privacy and support](https://brain.dmdrll.com/privacy)
