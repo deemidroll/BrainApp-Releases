@@ -11,7 +11,7 @@ Requires an Apple silicon Mac with macOS 15 or later. Automatic Chrome connectio
 
 ## Google Meet recording
 
-Install Brain — Google Meet context 0.1.8 from the Chrome Web Store. The companion connects automatically after Brain setup. Enable Automatically record Google Meet in Brain Settings and grant the macOS microphone and system-audio access you choose to use.
+Install Brain — Google Meet context 0.1.9 from the Chrome Web Store. The companion connects automatically after Brain setup. Enable Automatically record Google Meet in Brain Settings and grant the macOS microphone and system-audio access you choose to use.
 
 A confirmed Meet join starts visible recording. Leaving stops it. The B control becomes a dot during capture. You can also start or stop a recording manually.
 
@@ -25,6 +25,6 @@ Save, Copy MD and Copy text use the note in your transcripts folder. Reveal in F
 
 ## Update
 
-Chrome updates the companion through the Chrome Web Store. Open Brain: Meetings Transcription in TestFlight and update to Mac 0.5.22 (41) in the existing Personal Devices tester group. The public App Store submission is awaiting Apple review. Chrome 0.1.9 with the new icon is awaiting Google review. Run one copy of Brain at a time.
+Chrome updates the companion through the Chrome Web Store. Open Brain: Meetings Transcription in TestFlight and update to Mac 0.5.22 (41) in the existing Personal Devices tester group. The public App Store submission is awaiting Apple review. Chrome 0.1.9 with the black-and-white icon is published in the Chrome Web Store. Run one copy of Brain at a time.
 
 [Brain website](https://brain.dmdrll.com/) · [Privacy and support](https://brain.dmdrll.com/privacy)
